@@ -1,0 +1,171 @@
+/* Reset all margins/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body background & font */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 80px 20px 60px;
+}
+
+/* Navigation Bar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 1000;
+}
+
+.navbar h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-right {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-right li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-right li a:hover {
+  color: #00ffff;
+}
+
+/* Glass card sections */
+.glass-card {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+.download-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  color: #000;
+  background: #00ffff;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background: #00dddd;
+  color: #000;
+}
+
+
+/* Section Headings */
+.glass-card h2 {
+  margin-bottom: 15px;
+  color: #00ffff;
+}
+
+.glass-card h3 {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+/* Lists */
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Resume Button */
+.download-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  color: #000;
+  background: #00ffff;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background: #00dddd;
+  color: #000;
+}
+
+/* Footer */
+footer p {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  font-size: 12px;
+  color: #aaa;
+  opacity: 0.7;
+}
+
+/* Profile Image (Home Page) */
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px 0;
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+
+.social-links a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #00ffff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background: #00ffff;
+  color: #000;
+}
+
+/* Contact page specific: Make contact info clearly white */
+.contact-section p,
+.contact-section a {
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  color: #00ffff;
+  text-decoration: underline;
+}
